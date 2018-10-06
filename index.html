@@ -16,6 +16,115 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/uikit-icons.min.js"></script>
 </head>
 <body>
-    <h1>Highlight</h1>
+    <!-- navbar & hero -->
+    <div class="uk-position-relative">
+    <img src="https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg" alt="photo of galaxy">
+        <div class="uk-position-top">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li><a href="index.html"><span uk-icon="bolt"></span>&nbsp;highlight</a></li>
+                        <li><a href="authorForm.html"><span uk-icon="plus"></span>&nbsp;add author</a></li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li><button id="loginButton" class="uk-button uk-button-secondary">login</button></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- search & filter -->
+            <form class="uk-grid-large" uk-grid>
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="searchDiversity">Search by Diversity</label>
+                    <div class="uk-form-controls uk-width-1-1">
+                        <select class="uk-select" id="selectRace">
+                            <option>Select author race...</option>
+                            <option>Asian</option>
+                            <option>Black</option>
+                            <option>Hispanic</option>
+                            <option>Multiracial</option>
+                            <option>Native American</option>
+                            <option>Pacific Islander</option>
+                            <option>White</option>
+                        </select>
+                    </div>
+                    <label class="uk-form-label" for="searchDiversity">Search by Book Category</label>
+                    <div class="uk-form-controls">
+                        <select class="uk-select" id="selectRace">
+                            <option>Select book category...</option>
+                            <option>Arts & Photography</option>
+                            <option>Biographies & Memoirs</option>
+                            <option>Children's Books</option>
+                            <option>History</option>
+                            <option>Literature & Fiction</option>
+                            <option>Mystery & Suspense</option>
+                            <option>Romance</option>
+                            <option>Sci-Fi & Fantasy</option>
+                            <option>Teens & Young Adult</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <button class="uk-button uk-button-primary">primary button</button>
+            <button class="uk-button uk-button-secondary">secondary button</button>
+
+            <!-- book grid -->
+            <div class="uk-child-width-1-2@m" uk-grid>
+                
+                <div class="uk-card uk-card-default uk-width-1-2@m">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="40" height="40" src="images/avatar.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">James Baldwin</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Born: April 01, 2016</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="#" class="uk-button uk-button-text">Read more</a>
+                    </div>
+                </div>
+                
+                <div class="uk-card uk-card-default uk-width-1-2@m">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="40" height="40" src="images/avatar.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
+                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="#" class="uk-button uk-button-text">Read more</a>
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </div>
+
+    
+
+    
+
+    
+    
+
 </body>
 </html>

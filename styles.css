@@ -1,8 +1,66 @@
+/* GLOBAL **********************************************/
 body {
     font-family: 'Roboto Mono', monospace;
-    background-color: black;
+    background-color: #080533;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .uk-navbar-nav li a {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    color: #DAC490;
+}
+.uk-navbar-nav li a {
+    font-size: 16px;
+}
+nav {
+    border-bottom: 1px solid #DAC490;
+}
+#loginButton {
+    margin-right: 15px;
+    border: none;
+}
+
+/* FORM *************************************************/
+.uk-form-label {
+    color: #DAC490;
+    font-size: 16px;
+}
+.uk-select, .uk-input {
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #080533;
+    background-color: #EDFAE9;
+}
+
+/* BUTTON *************************************************/
+.uk-button {
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.uk-button-primary {
+    background-color: rgba(249, 25, 62, 0.25);
+    border: 2px solid #F9193E;
+    color: #DAC490;
+}
+.uk-button-primary:hover {
+    background-color: #F9193E;
+    color: #080533;
+}
+.uk-button-primary:focus {
+    background-color: #c00524;
+    color: #080533;
+}
+.uk-button-secondary {
+    border: 2px solid #DAC490;
+    color: #DAC490;
+    background-color: rgba(218, 196, 144, 0.25);
+}
+.uk-button-secondary:hover {
+    background-color: #DAC490;
+    color: #080533;
+}
+.uk-button-secondary:focus {
+    background-color: #c7a657;
+    color: #080533;
 }
