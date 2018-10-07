@@ -64,3 +64,13 @@ nav {
     background-color: #c7a657;
     color: #080533;
 }
+
+/* AUTHOR CARDS */
+.uk-card-default {
+    background-color: #EDFAE9;
+    border-radius: 10px;
+}
+.uk-card-title {
+    color: white;
+
+}
