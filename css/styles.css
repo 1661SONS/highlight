@@ -18,17 +18,32 @@ nav {
     margin-right: 15px;
     border: none;
 }
+hr {
+    border-top: 1px solid #F9193E;
+}
+::selection {
+    background-color: #F9193E;
+    color: #EDFAE9;
+}
 
 /* FORM *************************************************/
+.searchContainer {
+    padding: 20px;
+    background-color: rgba(8, 5, 51, 0.75);
+}
 .uk-form-label {
     color: #DAC490;
     font-size: 16px;
 }
-.uk-select, .uk-input {
-    margin-top: 10px;
+.uk-select, .uk-input, .uk-button-default {
+    /* margin-bottom: 10px; */
     border-radius: 5px;
     color: #080533;
     background-color: #EDFAE9;
+}
+#buttonDropdown {
+    font-family: 'Roboto Mono', monospace;
+    text-transform: none;
 }
 
 /* BUTTON *************************************************/
@@ -65,12 +80,14 @@ nav {
     color: #080533;
 }
 
-/* AUTHOR CARDS */
+/* AUTHOR CARDS *******************************************/
 .uk-card-default {
     background-color: #EDFAE9;
     border-radius: 10px;
 }
-.uk-card-title {
-    color: white;
-
+.uk-card-title, .uk-card-body, .uk-card-footer a {
+    color: #080533 !important;
+}
+.uk-text-meta {
+    color: #717A7C;
 }
