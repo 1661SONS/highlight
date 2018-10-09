@@ -1,7 +1,7 @@
-/* GLOBAL **********************************************/
+/* GLOBAL ****************************************************************************************/
 body {
     font-family: 'Roboto Mono', monospace;
-    background-color: #080533;
+    /* background-color: #080533; */
 }
 h1, h2, h3, h4, h5, h6, .uk-navbar-nav li a {
     font-family: 'Oswald', sans-serif;
@@ -26,7 +26,7 @@ hr {
     color: #EDFAE9;
 }
 
-/* FORM *************************************************/
+/* FORM *******************************************************************************************/
 .searchContainer {
     padding: 20px;
     background-color: rgba(8, 5, 51, 0.75);
@@ -46,7 +46,7 @@ hr {
     text-transform: none;
 }
 
-/* BUTTON *************************************************/
+/* BUTTON *******************************************************************************************/
 .uk-button {
     border-radius: 5px;
     font-size: 16px;
@@ -80,13 +80,17 @@ hr {
     color: #080533;
 }
 
-/* AUTHOR CARDS *******************************************/
+/* AUTHOR CARDS *************************************************************************************/
 .uk-card-default {
     background-color: #EDFAE9;
     border-radius: 10px;
 }
 .uk-card-title, .uk-card-body, .uk-card-footer a {
     color: #080533 !important;
+}
+.uk-card-footer a {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 .uk-text-meta {
     color: #717A7C;
@@ -104,4 +108,12 @@ hr {
     background-color: transparent;
     border: 1.5px solid #DAC490;
     color: #080533;
+}
+
+/* AUTHOR DETAIL PAGE *************************************************************************************/
+.uk-badge {
+    color: #080533;
+    background-color: #DAC490;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
