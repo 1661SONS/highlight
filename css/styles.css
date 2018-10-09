@@ -3,6 +3,9 @@ body {
     font-family: 'Roboto Mono', monospace;
     /* background-color: #080533; */
 }
+.blueBody {
+    background-color: #080533;
+}
 h1, h2, h3, h4, h5, h6, .uk-navbar-nav li a {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -123,4 +126,12 @@ article {
 }
 .authorBolt {
     color: #F9193E;
+}
+
+/* ADD AUTHOR FORM **************************************************************************************/
+.authorForm {
+    border: 2px solid #DAC490;
+    /* background-color: rgba(8, 5, 51, 0.25); */
+    padding: 60px;
+    border-radius: 10px;
 }
