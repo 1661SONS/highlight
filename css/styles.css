@@ -117,3 +117,10 @@ hr {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
+article {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.authorBolt {
+    color: #F9193E;
+}
