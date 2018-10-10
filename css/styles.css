@@ -45,6 +45,7 @@ nav {
 #galaxyTop {
     background-image: url(https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg);
     background-position: top;
+    border-color: #04031c;
 }
 #galaxyCenter {
     background-image: url(https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg);
@@ -54,7 +55,7 @@ nav {
 /* HOME: LOOKUP AUTHOR **************************************************************************************/
 .searchContainer {
     padding-top: 20px;
-    background-color: #04031c;
+    margin-bottom: 100px;
 }
 .searchContainer .uk-select, .searchContainer .uk-input {
     background-color: rgba(218, 196, 144, 0.15);
@@ -183,6 +184,7 @@ article {
     background: linear-gradient(#04031c, #F9193E);
     padding: 0 40px 40px 40px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 .authorForm .uk-form-label {
     font-size: 18px;
