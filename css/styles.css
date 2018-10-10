@@ -59,7 +59,7 @@ nav {
 .searchContainer .uk-select, .searchContainer .uk-input {
     background-color: rgba(218, 196, 144, 0.15);
     color: #f3ecdc;
-    border-color: #080533;
+    border-color: #0c074a;
 }
 .searchContainerTitle {
     margin-top: 20px;
@@ -171,7 +171,7 @@ article {
     color: #DAC490;
 }
 .whitishText {
-    color: #f3ecdc;
+    color: #0c074a;
 }
 .blockQuote {
     /* padding: 20px; */
@@ -189,7 +189,7 @@ article {
 }
 .authorForm .uk-input, .authorForm .uk-select, .authorForm .uk-textarea {
     background-color: rgba(218, 196, 144, 0.10);
-    border-color: #DAC490;
+    border-color: #0c074a;
     color: #f3ecdc;
 }
 .formTeeth {
