@@ -2,6 +2,15 @@
 body {
     font-family: 'Roboto Mono', monospace;
 }
+.uk-breadcrumb {
+    margin-top: 20px;
+}
+.uk-breadcrumb li a {
+    color: #080533;
+}
+.uk-breadcrumb li a:hover {
+    color: #F9193E;
+}
 .blueBody {
     background-color: #04031c;
 }
