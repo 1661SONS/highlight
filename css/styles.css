@@ -13,6 +13,9 @@ h1, h2, h3, h4, h5, h6, .uk-navbar-nav li a {
 .uk-navbar-nav li a {
     font-size: 16px;
 }
+.uk-navbar-nav li a:hover {
+    color: #F9193E;
+}
 nav {
     border-bottom: 1px solid #DAC490;
 }
@@ -32,6 +35,9 @@ hr {
 .searchContainer {
     padding-top: 20px;
     background-color: rgba(8, 5, 51, 1);
+}
+.searchContainerTitle {
+    margin-top: 20px;
 }
 .uk-form-label {
     color: #DAC490;
@@ -84,10 +90,14 @@ hr {
 
 /* AUTHOR CARDS *************************************************************************************/
 .uk-card-default {
-    background-color: #EDFAE9;
+    /* background-color: #EDFAE9; */
+    background-color: #f3ecdc;
     border-radius: 10px;
 }
-.uk-card-title, .uk-card-body, .uk-card-footer a {
+.uk-card-default .uk-card-header, .uk-card-default .uk-card-footer {
+    border-color: #DAC490;
+}
+.uk-card-title, .uk-card-body, .uk-card-footer a, .uk-card-header p {
     color: #080533 !important;
 }
 .uk-card-footer a {
