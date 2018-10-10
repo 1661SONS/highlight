@@ -1,7 +1,6 @@
 /* GLOBAL ****************************************************************************************/
 body {
     font-family: 'Roboto Mono', monospace;
-    /* background-color: #080533; */
 }
 .blueBody {
     background-color: #080533;
@@ -31,18 +30,18 @@ hr {
 
 /* FORM *******************************************************************************************/
 .searchContainer {
-    padding: 20px;
-    background-color: rgba(8, 5, 51, 0.75);
+    padding-top: 20px;
+    background-color: rgba(8, 5, 51, 1);
 }
 .uk-form-label {
     color: #DAC490;
     font-size: 16px;
 }
-.uk-select, .uk-input, .uk-button-default {
+.uk-select, .uk-input, .uk-button-default, .uk-textarea {
     /* margin-bottom: 10px; */
     border-radius: 5px;
     color: #080533;
-    background-color: #EDFAE9;
+    background-color: #f3ecdc;
 }
 #buttonDropdown {
     font-family: 'Roboto Mono', monospace;
@@ -124,14 +123,17 @@ article {
     margin-top: 30px;
     margin-bottom: 60px;
 }
-.authorBolt {
+.redText {
     color: #F9193E;
+}
+.blueText {
+    color: #080533;
 }
 
 /* ADD AUTHOR FORM **************************************************************************************/
 .authorForm {
-    border: 2px solid #DAC490;
-    /* background-color: rgba(8, 5, 51, 0.25); */
+    /* border: 2px solid #DAC490; */
+    background: linear-gradient(#080533, #F9193E);
     padding: 60px;
     border-radius: 10px;
 }
