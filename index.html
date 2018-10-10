@@ -51,11 +51,12 @@
     <div class="uk-container searchContainer">
     <p class="uk-text-center"><span class="redText" uk-icon="bolt"></span></p>
     <h3 class="searchContainerTitle uk-text-center">look up an author</h3>
-
-        <form class="uk-width-1-1 uk-form-stacked uk-text-center">
+    
+    <div class="uk-width-1-2 uk-align-center">
+        <form class="uk-width-1-1 uk-form-stacked">
             <fieldset class="uk-fieldset">
-                <label class="uk-form-label" for="searchDiversity">Search by Diversity</label>
-                <div uk-form-custom="target: > * > span:first-child">
+                <div class="uk-margin">
+                <label class="uk-form-label" for="searchDiversity">Author Diversity</label>
                     <select class="uk-select" id="selectRace">
                         <option>Select author race...</option>
                         <option>Asian</option>
@@ -65,14 +66,11 @@
                         <option>Native American</option>
                         <option>Pacific Islander</option>
                         <option>White</option>
-                    </select>   
-                    <button id="buttonDropdown" class="uk-button uk-button-default" type="button" tabindex="-1">
-                        <span></span>
-                        <span uk-icon="icon: chevron-down"></span>
-                    </button>
+                    </select>  
                 </div>
-            
-                <label class="uk-form-label" for="selectCategory">Search by Book Category</label>
+
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="selectCategory">Literary Category</label>
                     <select class="uk-select" id="selectCategory">
                         <option>Select book category...</option>
                         <option>Arts & Photography</option>
@@ -85,11 +83,12 @@
                         <option>Sci-Fi & Fantasy</option>
                         <option>Teens & Young Adult</option>
                     </select>  
-                <button class="uk-button uk-button-primary">primary button</button>
-                <button class="uk-button uk-button-secondary">secondary button</button>
+                </div>
+                <button class="uk-button uk-button-primary uk-align-right">look up</button>
             </fieldset>
         </form>
         <hr class="redHR">
+    </div>
             
         <!-- author showcase -->
 
