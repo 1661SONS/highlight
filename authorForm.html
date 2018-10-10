@@ -52,23 +52,57 @@
                     <label class="uk-form-label" for="form-stacked-select">* Full Name:</label> 
                     <input class="uk-input" id="authorName" name="authorName" type="text">
                 </div>
-                <!-- <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-select">* Last Name:</label>
-                    <input class="uk-input" id="authorName" name="last_name" type="text">
-                </div> -->
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-select">* Date of Birth:</label>
-                    <input class="uk-input" id="age" name="age" type="text">
-                </div>
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-select">* Gender:</label>
-                    <select class="uk-select" id="gender" name="gender">
-                        <option>Select gender...</option>
-                        <option>Female</option>
-                        <option>Male</option>
-                        <option>Nonbinary</option>
+                    <div uk-form-custom="target: > * > span:first-child">
+                        <select class="uk-select" id="gender" name="gender">
+                            <option>Select gender...</option>
+                            <option>Female</option>
+                            <option>Male</option>
+                            <option>Nonbinary</option>
+                        </select>
+                        <button id="buttonDropdown" class="uk-button uk-button-default" type="button" tabindex="-1">
+                            <span></span>
+                            <span uk-icon="icon: chevron-down"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-select">* Sexual Orientation:</label>
+                    <select class="uk-select" id="sexualOrientation" name="sexualOrientation">
+                        <option>Select sexual orientation...</option>
+                        <option>Lesbian</option>
+                        <option>Gay</option>
+                        <option>Bisexual</option>
+                        <option>Transgender</option>
+                        <option>Queer</option>
+                        <option>Inersex</option>
+                        <option>Asexual</option>
+                        <option>Heterosexual</option>
                     </select>
                 </div>
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-select">Disability (Optional):</label>
+                    <select class="uk-select" id="disability" name="disability">
+                        <option>Select disability...</option>
+                        <option>None</option>
+                        <option>Acquired Brain Injury</option>
+                        <option>Autism Spectrum Disorder</option>
+                        <option>Deaf or Hard of Hearing</option>
+                        <option>Intellectual Disability</option>
+                        <option>Mental Health Conditions</option>
+                        <option>Physical Disability</option>
+                        <option>Vision Impairment</option>
+                    </select>
+                </div>
+                
+
+                
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-select">* Date of Birth:</label>
+                    <input class="uk-input flatpickr flatpickr-input active" id="age" name="age" type="text">
+                </div>
+                
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-select">* City:</label>
                     <input class="uk-input" id="city" name="city" type="text">
@@ -169,6 +203,17 @@
 
         </fieldset>
     </form>
+
+<!-- datepicker js -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>
+    $( '.flatpickr' ).flatpickr({
+        altInput: true,
+    altFormat: "F j, Y",
+    dateFormat: "Y-m-d",
+  });
+</script>
 
 </body>
 </html>
