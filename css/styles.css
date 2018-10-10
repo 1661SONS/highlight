@@ -6,7 +6,7 @@ body {
     margin-top: 20px;
 }
 .uk-breadcrumb li a {
-    color: #080533;
+    color: #c7a657;
 }
 .uk-breadcrumb li a:hover {
     color: #F9193E;
@@ -54,7 +54,12 @@ nav {
 /* HOME: LOOKUP AUTHOR **************************************************************************************/
 .searchContainer {
     padding-top: 20px;
-    background-color: rgba(8, 5, 51, 1);
+    background-color: #04031c;
+}
+.searchContainer .uk-select, .searchContainer .uk-input {
+    background-color: rgba(218, 196, 144, 0.15);
+    color: #f3ecdc;
+    border-color: #080533;
 }
 .searchContainerTitle {
     margin-top: 20px;
@@ -109,6 +114,9 @@ nav {
 }
 
 /* AUTHOR CARDS *************************************************************************************/
+.authorGrid {
+    background: linear-gradient(#04031c, #DAC490);
+}
 .uk-card-default {
     /* background-color: #EDFAE9; */
     background-color: #f3ecdc;
@@ -161,6 +169,9 @@ article {
 }
 .goldText {
     color: #DAC490;
+}
+.whitishText {
+    color: #f3ecdc;
 }
 .blockQuote {
     /* padding: 20px; */

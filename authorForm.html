@@ -35,6 +35,15 @@
         </div>
     </nav>
 
+    <!-- breadcrumbs -->
+    
+    <div class="uk-container">
+        <ul class="uk-breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><span>Add Author</span></li>
+        </ul>
+    </div>
+
     <h1 class="uk-text-center">Add Author:</h1>
     <!-- <p class="intro uk-width-1-2@m uk-width-expand@m uk-align-center">
         say something here .. or not
@@ -49,7 +58,7 @@
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-select">* Full Name:</label>
                     <div class="uk-inline uk-width-1-1">
-                        <span class="uk-form-icon uk-form-icon-flip redText" uk-icon="icon: pencil"></span>
+                        <span class="uk-form-icon uk-form-icon-flip whitishText" uk-icon="icon: pencil"></span>
                         <input class="uk-input" id="authorName" name="authorName" type="text">
                     </div>
                 </div>
@@ -114,14 +123,14 @@
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-select">* Date of Birth:</label>
                     <div class="uk-inline uk-width-1-1">
-                        <span class="uk-form-icon uk-form-icon-flip redText" uk-icon="icon: calendar"></span>
+                        <span class="uk-form-icon uk-form-icon-flip whitishText" uk-icon="icon: calendar"></span>
                         <input class="uk-input flatpickr flatpickr-input active" id="Born_at" name="Born_at" type="text">
                     </div>
                 </div>
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-select">Date of Death (Optional):</label>
                     <div class="uk-inline uk-width-1-1">
-                        <span class="uk-form-icon uk-form-icon-flip redText" uk-icon="icon: calendar"></span>
+                        <span class="uk-form-icon uk-form-icon-flip whitishText" uk-icon="icon: calendar"></span>
                         <input class="uk-input flatpickr flatpickr-input active" id="Died_at" name="Died_at" type="text">
                     </div>
                 </div>
@@ -129,50 +138,28 @@
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-select">* Hometown:</label>
                     <div class="uk-inline uk-width-1-1">
-                        <span class="uk-form-icon uk-form-icon-flip redText" uk-icon="icon: location"></span>
+                        <span class="uk-form-icon uk-form-icon-flip whitishText" uk-icon="icon: location"></span>
                         <input class="uk-input" id="hometown" name="hometown" type="text">
                     </div>
                 </div>
-                    
+
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-select">* Short Bio:</label>
                     <div class="uk-inline uk-width-1-1">
-                        <span class="uk-form-icon uk-form-icon-flip redText" uk-icon="heart"></span>
+                        <span class="uk-form-icon uk-form-icon-flip whitishText" uk-icon="heart"></span>
                         <textarea class="uk-textarea" rows="5" id="about" name="about"></textarea>
                     </div>
                 </div>
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-select">Media Resource (URL):</label>
-                    <input class="uk-input" id="media_resources" name="media_resources" type="text">
-                </div>
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-select">Officer Involved (First and Last Name):</label>
-                    <input class="uk-input" id="officer_involved" name="officer_involved" type="text">
-                </div>
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-select">Police Department:</label>
-                    <input class="uk-input" id="police_department" name="police_department" type="text">
-                </div>
 
-                <div class="uk-text-center uk-align-center"><span class="blueText" uk-icon="bolt"></span></div>
-
-                <!-- contact info section -->
-                <div class="form-group contactInfo">
-                    <h2 class="uk-legend">Your Contact Information (Optional)</h2>
-                    <p class="intro">
-                        This is not required, but could help hold those accountable. Please share your contact information only if you are comfortable.
-                    </p>
                 <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-select">Full Name:</label> 
-                    <input class="uk-input" id="contact_person_name" name="contact_person_name" type="text">
-                </div> 
-                    <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-select">Email:</label> 
-                    <input class="uk-input" id="contact_person_email" name="contact_person_email" type="text">
+                    <label class="uk-form-label" for="form-stacked-select">* Number of Works:</label>
+                    <div class="uk-inline uk-width-1-1">
+                        <span class="uk-form-icon uk-form-icon-flip whitishText" uk-icon="hashtag"></span>
+                        <input class="uk-input" id="works_count" name="works_count" type="number">
                     </div>
                 </div>
-                    
-            <button class="uk-button uk-button-secondary" id="submit-btn">Add Story</button>
+                
+            <button class="uk-button uk-button-secondary uk-align-right" id="submit-btn">Add Author</button>
 
         </fieldset>
     </form>
