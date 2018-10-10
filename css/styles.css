@@ -30,6 +30,14 @@ hr {
     background-color: #F9193E;
     color: #EDFAE9;
 }
+#galaxyTop {
+    background-image: url(https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg);
+    background-position: top;
+}
+#galaxyCenter {
+    background-image: url(https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg);
+    background-position: center;
+}
 
 /* FORM *******************************************************************************************/
 .searchContainer {
@@ -138,6 +146,9 @@ article {
 }
 .blueText {
     color: #080533;
+}
+.goldText {
+    color: #DAC490;
 }
 
 /* ADD AUTHOR FORM **************************************************************************************/
