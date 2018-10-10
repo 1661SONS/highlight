@@ -23,8 +23,11 @@ nav {
     margin-right: 15px;
     border: none;
 }
-hr {
+.redHR {
     border-top: 1px solid #F9193E;
+}
+.goldHR {
+    border-top: 1px solid #DAC490;
 }
 ::selection {
     background-color: #F9193E;
@@ -39,7 +42,7 @@ hr {
     background-position: center;
 }
 
-/* FORM *******************************************************************************************/
+/* HOME: LOOKUP AUTHOR **************************************************************************************/
 .searchContainer {
     padding-top: 20px;
     background-color: rgba(8, 5, 51, 1);
@@ -148,13 +151,24 @@ article {
     color: #080533;
 }
 .goldText {
-    color: #DAC490;
+    color: #c7a657;
+}
+.blockQuote {
+    /* padding: 20px; */
+    color: #c7a657;
 }
 
 /* ADD AUTHOR FORM **************************************************************************************/
 .authorForm {
-    /* border: 2px solid #DAC490; */
     background: linear-gradient(#080533, #F9193E);
-    padding: 60px;
+    padding: 0 40px 40px 40px;
     border-radius: 10px;
+}
+.authorForm .uk-form-label {
+    font-size: 18px;
+}
+.authorForm .uk-input, .authorForm .uk-select, .authorForm .uk-textarea {
+    background-color: transparent;
+    border-color: #DAC490;
+    color: #f3ecdc;
 }
