@@ -6,10 +6,11 @@ body {
     margin-top: 20px;
 }
 .uk-breadcrumb li a {
-    color: #c7a657;
+    color: #080533;
 }
 .uk-breadcrumb li a:hover {
-    color: #F9193E;
+    color: #080533;
+    text-decoration: underline;
 }
 .galaxyBody {
     background-color: #04031c;
