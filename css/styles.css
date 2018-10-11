@@ -11,6 +11,13 @@ body {
 .uk-breadcrumb li a:hover {
     color: #F9193E;
 }
+.galaxyBody {
+    background-color: #04031c;
+    background-image: url(https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
 .blueBody {
     background-color: #04031c;
 }
@@ -26,7 +33,7 @@ h1, h2, h3, h4, h5, h6, .uk-navbar-nav li a {
     color: #F9193E;
 }
 nav {
-    border-bottom: 1px solid #DAC490;
+    border-bottom: 1px dashed #DAC490;
 }
 #loginButton {
     margin-right: 15px;
@@ -121,7 +128,8 @@ nav {
 .uk-card-default {
     /* background-color: #EDFAE9; */
     background-color: #f3ecdc;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 30px rgba(117, 3, 22,0.80);
 }
 .uk-card-default .uk-card-header, .uk-card-default .uk-card-footer {
     border-color: #DAC490;
@@ -181,10 +189,14 @@ article {
 
 /* ADD AUTHOR FORM **************************************************************************************/
 .authorForm {
-    background: linear-gradient(#04031c, #F9193E);
-    padding: 0 40px 40px 40px;
+    /* background-color: rgba(243, 236, 220, 1); */
+    background-color: #04031c;
+    padding: 40px 40px 40px 40px;
     border-radius: 10px;
     margin-bottom: 100px;
+    /* border: 1px dashed #717A7C; */
+    /* border-top: none; */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.80);
 }
 .authorForm .uk-form-label {
     font-size: 18px;

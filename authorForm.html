@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="blueBody" lang="en">
+<html class="galaxyBody" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,10 +18,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/uikit-icons.min.js"></script>
 </head>
-<body class="blueBody">
+<body>
 
     <!-- nav -->
-    <nav id="galaxyCenter" class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
                 <li><a href="index.html"><span uk-icon="bolt"></span>&nbsp;highlight</a></li>
@@ -50,75 +50,76 @@
     </p> -->
 
     <!-- form -->
-    <form class="authorForm uk-width-1-2@m uk-align-center uk-form-stacked">
-        <fieldset class="uk-fieldset">
+    <!-- <div class="uk-card-default uk-card-body"> -->
+        <form class="authorForm uk-width-1-2@m uk-align-center uk-form-stacked">
+            <fieldset class="uk-fieldset">
 
-            <div class="form-group">
-                <!-- <h2 class="uk-legend">Author Info</h2> -->
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-select">* Full Name:</label>
-                    <div class="uk-inline uk-width-1-1">
-                        <span class="uk-form-icon uk-form-icon-flip whitishText" uk-icon="icon: pencil"></span>
-                        <input class="uk-input" id="authorName" name="authorName" type="text">
+                <div class="form-group">
+                    <!-- <h2 class="uk-legend">Author Info</h2> -->
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-select">* Full Name:</label>
+                        <div class="uk-inline uk-width-1-1">
+                            <span class="uk-form-icon uk-form-icon-flip whitishText" uk-icon="icon: pencil"></span>
+                            <input class="uk-input" id="authorName" name="authorName" type="text">
+                        </div>
                     </div>
-                </div>
+                    
+                    <h6 class="uk-width-expand redText" uk-leader="fill: ∆"> </h6>
+                    <p class="formTeeth uk-text-center redText">DIVERSIFIERS</p>
 
-                <p class="formTeeth uk-text-center redText">DIVERSIFIERS</p>
-                <h6 class="uk-width-expand redText" uk-leader="fill: ∆"> </h6>
-
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-select">* Race:</label>
-                    <select class="uk-select" id="gender" name="gender">
-                        <option>Select race...</option>
-                        <option>Asian</option>
-                        <option>Black</option>
-                        <option>Hispanic</option>
-                        <option>Multiracial</option>
-                        <option>Native American</option>
-                        <otion>Pacific Islander</otion>
-                        <option>White</option>
-                    </select>
-                </div>
-                <div class="uk-margin">
-                <label class="uk-form-label" for="form-stacked-select">* Gender:</label>
-                    <select class="uk-select" id="gender" name="gender">
-                        <option>Select gender...</option>
-                        <option>Female</option>
-                        <option>Male</option>
-                        <option>Nonbinary</option>
-                    </select>
-                </div>
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-select">* Sexual Orientation:</label>
-                    <select class="uk-select" id="sexualOrientation" name="sexualOrientation">
-                        <option>Select sexual orientation...</option>
-                        <option>Lesbian</option>
-                        <option>Gay</option>
-                        <option>Bisexual</option>
-                        <option>Transgender</option>
-                        <option>Queer</option>
-                        <option>Inersex</option>
-                        <option>Asexual</option>
-                        <option>Heterosexual</option>
-                    </select>
-                </div>
-                <div class="uk-margin">
-                    <label class="uk-form-label" for="form-stacked-select">Disability (Optional):</label>
-                    <select class="uk-select" id="disability" name="disability">
-                        <option>Select disability...</option>
-                        <option>None</option>
-                        <option>Acquired Brain Injury</option>
-                        <option>Autism Spectrum Disorder</option>
-                        <option>Deaf or Hard of Hearing</option>
-                        <option>Intellectual Disability</option>
-                        <option>Mental Health Conditions</option>
-                        <option>Physical Disability</option>
-                        <option>Vision Impairment</option>
-                    </select>
-                </div>
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-select">* Race:</label>
+                        <select class="uk-select" id="gender" name="gender">
+                            <option>Select race...</option>
+                            <option>Asian</option>
+                            <option>Black</option>
+                            <option>Hispanic</option>
+                            <option>Multiracial</option>
+                            <option>Native American</option>
+                            <otion>Pacific Islander</otion>
+                            <option>White</option>
+                        </select>
+                    </div>
+                    <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-select">* Gender:</label>
+                        <select class="uk-select" id="gender" name="gender">
+                            <option>Select gender...</option>
+                            <option>Female</option>
+                            <option>Male</option>
+                            <option>Nonbinary</option>
+                        </select>
+                    </div>
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-select">* Sexual Orientation:</label>
+                        <select class="uk-select" id="sexualOrientation" name="sexualOrientation">
+                            <option>Select sexual orientation...</option>
+                            <option>Lesbian</option>
+                            <option>Gay</option>
+                            <option>Bisexual</option>
+                            <option>Transgender</option>
+                            <option>Queer</option>
+                            <option>Inersex</option>
+                            <option>Asexual</option>
+                            <option>Heterosexual</option>
+                        </select>
+                    </div>
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-select">Disability (Optional):</label>
+                        <select class="uk-select" id="disability" name="disability">
+                            <option>Select disability...</option>
+                            <option>None</option>
+                            <option>Acquired Brain Injury</option>
+                            <option>Autism Spectrum Disorder</option>
+                            <option>Deaf or Hard of Hearing</option>
+                            <option>Intellectual Disability</option>
+                            <option>Mental Health Conditions</option>
+                            <option>Physical Disability</option>
+                            <option>Vision Impairment</option>
+                        </select>
+                    </div>
                 
-                <p class="formTeeth uk-text-center redText">BIO</p>
                 <h6 class="uk-width-expand redText" uk-leader="fill: ∆"> </h6>
+                <p class="formTeeth uk-text-center redText">BIO</p>
             
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-select">* Date of Birth:</label>
@@ -163,6 +164,7 @@
 
         </fieldset>
     </form>
+<!-- </div> -->
 
 <!-- datepicker js -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
