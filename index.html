@@ -22,6 +22,20 @@
 
     <!-- navbar -->
 
+    <!-- <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li><a href="index.html"><span uk-icon="bolt"></span>&nbsp;highlight</a></li>
+                <li><a href="authorForm.html"><span uk-icon="plus"></span>&nbsp;add author</a></li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li><button id="loginButton" class="uk-button uk-button-secondary">login</button></li>
+            </ul>
+        </div>
+    </nav> -->
+
     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
@@ -43,7 +57,101 @@
         <div class="uk-inline">
             <img src="https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg" alt="">
             <div class="uk-overlay uk-position-center">
-                <h1>highlight underrepresented authors</h1>
+                <h1 class="uk-text-center">highlight underrepresented authors</h1>
+                
+                <!-- featured authors slider -->
+
+                <div class="uk-position-relative uk-visible-toggle" uk-slider>
+
+                    <ul class="uk-slider-items uk-grid">
+                        <!-- james baldwin -->
+                        <li class="uk-width-4-5">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-header">
+                                    <div class="uk-width-expand">
+                                        <div class="uk-card-badge uk-label">8 works</div>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom">James Baldwin</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><span class="flag-icon flag-icon-us"></span> New York City, New York, United States<br>Born: August 02, 1924<br>Died: December 01, 1987</p>
+                                    </div>
+                                </div>
+                                <div class="uk-card-body">
+                                    <p>James Arthur "Jimmy" Baldwin was an American novelist and social critic. His essays, as collected in Notes of a Native Son, explore intricacies of racial, sexual, and class distinctions in Western societies, most notably in mid-20th-century America.</p>
+                                </div>
+                                <div class="uk-card-footer">
+                                    <a class="uk-align-right" href="baldwin.html" class="uk-button uk-button-text">View Author<span uk-icon="arrow-right"></span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- ghalib shiraz dhalla -->
+                        <li class="uk-width-4-5">
+                            <div>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-header">
+                                        <div class="uk-width-expand">
+                                            <div class="uk-card-badge uk-label">2 works</div>
+                                            <h3 class="uk-card-title uk-margin-remove-bottom">Ghalib Shiraz Dhalla</h3>
+                                            <p class="uk-text-meta uk-margin-remove-top"><span class="flag-icon flag-icon-ke"></span> Mombasa, Kenya<br>Born: June 05, 1978</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <p>Ghalib Shiraz Dhalla is an American writer. He is most famous for his novel Ode to Lata published in 2002, that was adapted to a film in 2008 under the title The Ode. He has also published the novel The Two Krishnas in 2011, which was released as The Exiles in India.</p>
+                                    </div>
+                                    <div class="uk-card-footer">
+                                        <a class="uk-align-right" href="#" class="uk-button uk-button-text">View Author<span uk-icon="arrow-right"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- malinda lo -->
+                        <li class="uk-width-4-5">
+                            <div>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-header">
+                                        <div class="uk-width-expand">
+                                            <div class="uk-card-badge uk-label">12 works</div>
+                                            <h3 class="uk-card-title uk-margin-remove-bottom">Malinda Lo</h3>
+                                            <p class="uk-text-meta uk-margin-remove-top"><span class="flag-icon flag-icon-cn"></span> China<br>Born: 1974</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <p>Malinda Lo is an American writer of young adult novels including Ash, Huntress, Adaptation, and Inheritance. She also does research on diversity in young adult literature publishing.</p>
+                                    </div>
+                                    <div class="uk-card-footer">
+                                        <a class="uk-align-right" href="#" class="uk-button uk-button-text">View Author<span uk-icon="arrow-right"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- yukio mishima -->
+                        <li class="uk-width-4-5">
+                            <div>
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-header">
+                                        <div class="uk-width-expand">
+                                            <div class="uk-card-badge uk-label">13 works</div>
+                                            <h3 class="uk-card-title uk-margin-remove-bottom">Yukio Mishima</h3>
+                                            <p class="uk-text-meta uk-margin-remove-top"><span class="flag-icon flag-icon-jp"></span> Yotsuya, Tokyo, Japan<br>Born: January 14, 1925<br>Died: November 25, 1970</p>
+                                        </div>
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <p>Yukio Mishima is the pen name of Kimitake Hiraoka, a Japanese author, poet, playwright, actor, model, film director, founder of the Tatenokai, and nationalist. Mishima is considered one of the most important Japanese authors of the 20th century.</p>
+                                    </div>
+                                    <div class="uk-card-footer">
+                                        <a class="uk-align-right" href="#" class="uk-button uk-button-text">View Author<span uk-icon="arrow-right"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                    
+                </div> <!-- closing slider -->
+
                 <p class="uk-text-center goldText">scroll to begin</p>
                 <p class="uk-text-center goldText"><span uk-icon="icon: arrow-down; ratio: 2.5"></span></p>
             </div>
@@ -92,103 +200,12 @@
             </fieldset>
         </form>
         <!-- <hr class="redHR"> -->
-        <h6 class="uk-width-expand redText" uk-leader="fill: ∆"> </h6>
-        <p class="formTeeth uk-text-center redText">FEATURED AUTHORS</p>
+        <!-- <h6 class="uk-width-expand redText" uk-leader="fill: ∆"> </h6>
+        <p class="formTeeth uk-text-center redText">FEATURED AUTHORS</p> -->
         
     </div>
 
-    <!-- featured authors slider -->
-
-    <div class="uk-position-relative uk-visible-toggle" uk-slider>
-
-            <ul class="uk-slider-items uk-grid">
-                <!-- james baldwin -->
-                <li class="uk-width-4-5">
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-header">
-                            <div class="uk-width-expand">
-                                <div class="uk-card-badge uk-label">8 works</div>
-                                <h3 class="uk-card-title uk-margin-remove-bottom">James Baldwin</h3>
-                                <p class="uk-text-meta uk-margin-remove-top"><span class="flag-icon flag-icon-us"></span> New York City, New York, United States<br>Born: August 02, 1924<br>Died: December 01, 1987</p>
-                            </div>
-                        </div>
-                        <div class="uk-card-body">
-                            <p>James Arthur "Jimmy" Baldwin was an American novelist and social critic. His essays, as collected in Notes of a Native Son, explore intricacies of racial, sexual, and class distinctions in Western societies, most notably in mid-20th-century America.</p>
-                        </div>
-                        <div class="uk-card-footer">
-                            <a class="uk-align-right" href="baldwin.html" class="uk-button uk-button-text">View Author<span uk-icon="arrow-right"></span></a>
-                        </div>
-                    </div>
-                </li>
-                <!-- ghalib shiraz dhalla -->
-                <li class="uk-width-4-5">
-                    <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-header">
-                                <div class="uk-width-expand">
-                                    <div class="uk-card-badge uk-label">2 works</div>
-                                    <h3 class="uk-card-title uk-margin-remove-bottom">Ghalib Shiraz Dhalla</h3>
-                                    <p class="uk-text-meta uk-margin-remove-top"><span class="flag-icon flag-icon-ke"></span> Mombasa, Kenya<br>Born: June 05, 1978</p>
-                                </div>
-                            </div>
-                            <div class="uk-card-body">
-                                <p>Ghalib Shiraz Dhalla is an American writer. He is most famous for his novel Ode to Lata published in 2002, that was adapted to a film in 2008 under the title The Ode. He has also published the novel The Two Krishnas in 2011, which was released as The Exiles in India.</p>
-                            </div>
-                            <div class="uk-card-footer">
-                                <a class="uk-align-right" href="#" class="uk-button uk-button-text">View Author<span uk-icon="arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- malinda lo -->
-                <li class="uk-width-4-5">
-                    <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-header">
-                                <div class="uk-width-expand">
-                                    <div class="uk-card-badge uk-label">12 works</div>
-                                    <h3 class="uk-card-title uk-margin-remove-bottom">Malinda Lo</h3>
-                                    <p class="uk-text-meta uk-margin-remove-top"><span class="flag-icon flag-icon-cn"></span> China<br>Born: 1974</p>
-                                </div>
-                            </div>
-                            <div class="uk-card-body">
-                                <p>Malinda Lo is an American writer of young adult novels including Ash, Huntress, Adaptation, and Inheritance. She also does research on diversity in young adult literature publishing.</p>
-                            </div>
-                            <div class="uk-card-footer">
-                                <a class="uk-align-right" href="#" class="uk-button uk-button-text">View Author<span uk-icon="arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- yukio mishima -->
-                <li class="uk-width-4-5">
-                    <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-header">
-                                <div class="uk-width-expand">
-                                    <div class="uk-card-badge uk-label">13 works</div>
-                                    <h3 class="uk-card-title uk-margin-remove-bottom">Yukio Mishima</h3>
-                                    <p class="uk-text-meta uk-margin-remove-top"><span class="flag-icon flag-icon-jp"></span> Yotsuya, Tokyo, Japan<br>Born: January 14, 1925<br>Died: November 25, 1970</p>
-                                </div>
-                            </div>
-                            <div class="uk-card-body">
-                                <p>Yukio Mishima is the pen name of Kimitake Hiraoka, a Japanese author, poet, playwright, actor, model, film director, founder of the Tatenokai, and nationalist. Mishima is considered one of the most important Japanese authors of the 20th century.</p>
-                            </div>
-                            <div class="uk-card-footer">
-                                <a class="uk-align-right" href="#" class="uk-button uk-button-text">View Author<span uk-icon="arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-            </ul>
-        
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
-            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-        
-        </div> <!-- closing slider -->
+    
 
         </div> <!-- closing container -->
         
