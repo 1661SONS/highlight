@@ -61,27 +61,67 @@
             <p class="uk-text-center"><span class="redText" uk-icon="bolt"></span></p>
             
             <h2 class="uk-text-center">2 Comments</h2>
-            <a class="uk-button uk-button-text uk-align-center redText" href="#">add your voice</a>
+            <a uk-toggle="target: #commentsTrigger" class="uk-button uk-button-text uk-align-center redText" href="#commentsTrigger">add your voice</a>
+
+            <!-- comment modal -->
+
+            <div id="commentsTrigger" class="commentsModal" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="delete uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <h2 class="uk-modal-title redText"><span uk-icon="comment"></span>&nbsp;add your voice</h2>
+                    </div>
+                    <div class="uk-modal-body">
+                        <div id="attachedComments"></div>
+                        <form>
+                            <fieldset class="uk-fieldset">
+                                <div class="uk-margin">
+                                    <textarea id="commentField" class="uk-textarea" rows="5"></textarea>
+                                </div>
+                            </fieldset>
+                        </form>
+                        
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <a class="uk-button uk-button-text" href="#"><span uk-icon="check"></span>&nbsp; save</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- comment 1 -->
 
             <article class="uk-comment uk-comment-primary">
-                    <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
-                        <div class="uk-width-auto">
-                            <img class="uk-comment-avatar" src="images/avatar.jpg" width="80" height="80" alt="">
-                        </div>
-                        <div class="uk-width-expand">
-                            <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
-                            <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-                                <li><a href="#">12 days ago</a></li>
-                                <li><a href="#">Reply</a></li>
-                            </ul>
-                        </div>
-                    </header>
-                    <div class="uk-comment-body">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
+                    <div class="uk-width-expand">
+                        <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Diana Prince</a></h4>
                     </div>
-                </article>
+                </header>
+                <div class="uk-comment-body">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                        <li><a href="#"><span uk-icon="reply"></span>&nbsp;Reply</a></li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- comment 2 -->
+
+            <article class="uk-comment uk-comment-primary">
+                <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
+                    <div class="uk-width-expand">
+                        <h4 class="uk-comment-title uk-margin-remove">Victor Stone</h4>
+                    </div>
+                </header>
+                <div class="uk-comment-body">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                        <li><a href="#"><span uk-icon="reply"></span>&nbsp;Reply</a></li>
+                    </ul>
+                </div>
+            </article>
                 
         </article>
     </div>
+
 </body>
 </html>

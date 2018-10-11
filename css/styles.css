@@ -128,7 +128,7 @@ nav {
 .uk-card-default {
     /* background-color: #EDFAE9; */
     background-color: #f3ecdc;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     box-shadow: 0 5px 30px rgba(117, 3, 22,0.80);
 }
 .uk-card-default .uk-card-header, .uk-card-default .uk-card-footer {
@@ -186,13 +186,22 @@ article {
     /* padding: 20px; */
     color: #c7a657;
 }
+.uk-comment {
+    background-color: rgba(243, 236, 220, 0.5);
+}
+.uk-comment-title {
+    color: #080533;
+}
+.uk-comment-meta {
+    color: #F9193E;
+}
 
 /* ADD AUTHOR FORM **************************************************************************************/
 .authorForm {
     /* background-color: rgba(243, 236, 220, 1); */
-    background-color: #04031c;
-    padding: 40px 40px 40px 40px;
-    border-radius: 10px;
+    background-color: #f3ecdc;
+    padding: 40px;
+    /* border-radius: 10px; */
     margin-bottom: 100px;
     /* border: 1px dashed #717A7C; */
     /* border-top: none; */
@@ -200,6 +209,7 @@ article {
 }
 .authorForm .uk-form-label {
     font-size: 18px;
+    color: #080533;
 }
 .authorForm .uk-input, .authorForm .uk-select, .authorForm .uk-textarea {
     background-color: rgba(218, 196, 144, 0.10);
@@ -207,7 +217,7 @@ article {
     color: #f3ecdc;
 }
 .formTeeth {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 /* DATE PICKER ***************************************************************************************/
