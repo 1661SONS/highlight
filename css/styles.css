@@ -196,7 +196,13 @@ article {
     color: #F9193E;
 }
 .uk-slidenav {
-    color: #04031c;
+    color: #F9193E;
+}
+.uk-dotnav>.uk-active>* {
+    background-color: #F9193E;
+}
+.uk-dotnav>*>* {
+    border-color: #F9193E;
 }
 
 /* ADD AUTHOR FORM **************************************************************************************/

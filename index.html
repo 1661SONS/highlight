@@ -22,28 +22,32 @@
 
     <!-- navbar -->
 
-    <div class="uk-position-top">
-        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-            <div class="uk-navbar-left">
-                <ul class="uk-navbar-nav">
-                    <li><a href="index.html"><span uk-icon="bolt"></span>&nbsp;highlight</a></li>
-                    <li><a href="authorForm.html"><span uk-icon="plus"></span>&nbsp;add author</a></li>
-                </ul>
-            </div>
-            <div class="uk-navbar-right">
-                <ul class="uk-navbar-nav">
-                    <li><button id="loginButton" class="uk-button uk-button-secondary">login</button></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li><a href="index.html"><span uk-icon="bolt"></span>&nbsp;highlight</a></li>
+                <li><a href="authorForm.html"><span uk-icon="plus"></span>&nbsp;add author</a></li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li><button id="loginButton" class="uk-button uk-button-secondary">login</button></li>
+            </ul>
+        </div>
+    </nav>
+    
 
     <!-- hero -->
 
-    <div id="tops" class="uk-background-center-center uk-background-fixed uk-height-medium" style="background-image: url(https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg);">
-        <!-- <div class="uk-overlay uk-overlay-default uk-position-center">
-            <p>Center</p>
-        </div> -->
+    <div>
+        <div class="uk-inline">
+            <img src="https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg" alt="">
+            <div class="uk-overlay uk-position-center">
+                <h1>highlight underrepresented authors</h1>
+                <p class="uk-text-center goldText">scroll to begin</p>
+                <p class="uk-text-center goldText"><span uk-icon="icon: arrow-down; ratio: 2.5"></span></p>
+            </div>
+        </div>
     </div>
     
     <!-- search & filter -->
@@ -95,7 +99,7 @@
 
     <!-- featured authors slider -->
 
-    <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider>
+    <div class="uk-position-relative uk-visible-toggle" uk-slider>
 
             <ul class="uk-slider-items uk-grid">
                 <!-- james baldwin -->
@@ -181,6 +185,8 @@
         
             <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
             <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
         
         </div> <!-- closing slider -->
 
