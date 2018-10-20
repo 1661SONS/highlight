@@ -22,7 +22,27 @@ button a, button a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    opacity: 0.95;
+    overflow: auto;
+    position: relative;
+}
+.galaxyBodyResults:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    display: block;
+    background-image: url(https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+
+    -webkit-filter: grayscale(0.65);
+    -moz-filter: grayscale(0.65);
+    -o-filter: grayscale(0.65);
+    -ms-filter: grayscale(0.65);
+    filter: grayscale(0.65);
 }
 .blueBody {
     background-color: #04031c;
@@ -233,13 +253,14 @@ article {
 }
 
 /* SEARCH RESULTS **************************************************************************************/
-.galaxyBody .uk-card-default {
+.searchResults .uk-card-default {
     background-color: #e8eaea;
+    box-shadow: none;
 }
-.galaxyBody .uk-card-default .uk-card-header, .galaxyBody .uk-card-default .uk-card-footer {
+.searchResults .uk-card-default .uk-card-header, .searchResults .uk-card-default .uk-card-footer {
     border-color: #e8eaea;
 }
-.galaxyBody .uk-card-badge {
+.searchResults .uk-card-badge {
     border: 2px solid #c0c5c6;
 }
 
