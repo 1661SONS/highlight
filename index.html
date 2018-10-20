@@ -22,20 +22,6 @@
 
     <!-- navbar -->
 
-    <!-- <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-        <div class="uk-navbar-left">
-            <ul class="uk-navbar-nav">
-                <li><a href="index.html"><span uk-icon="bolt"></span>&nbsp;highlight</a></li>
-                <li><a href="authorForm.html"><span uk-icon="plus"></span>&nbsp;add author</a></li>
-            </ul>
-        </div>
-        <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav">
-                <li><button id="loginButton" class="uk-button uk-button-secondary">login</button></li>
-            </ul>
-        </div>
-    </nav> -->
-
     <nav class="uk-navbar-container uk-navbar-transparent noBorder" uk-navbar>
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
@@ -49,7 +35,6 @@
             </ul>
         </div>
     </nav>
-    
 
     <!-- hero -->
 
@@ -57,7 +42,7 @@
         <div class="uk-inline">
             <img src="https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg" alt="">
             <div class="uk-overlay uk-position-center">
-                <h1 class="uk-text-center">highlight underrepresented authors</h1>
+                <h1 class="uk-text-center">highlighting underrepresented authors</h1>
                 
                 <!-- featured authors slider -->
 
@@ -145,8 +130,8 @@
 
                     </ul>
                     
-                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    <a class="uk-position-center-left-large uk-position-small uk-hidden-hover uk-slidenav-large" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-large" href="#" uk-slidenav-next uk-slider-item="next"></a>
 
                     <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
                     
@@ -168,7 +153,7 @@
         <form class="uk-width-1-1 uk-form-stacked">
             <fieldset class="uk-fieldset">
                 <div class="uk-margin">
-                <label class="uk-form-label" for="searchDiversity">Author Diversity</label>
+                <label class="uk-form-label" for="searchDiversity">* Author Diversity</label>
                     <select class="uk-select" id="selectRace">
                         <option>Select author race...</option>
                         <option>Asian</option>
@@ -182,7 +167,7 @@
                 </div>
 
                 <div class="uk-margin">
-                    <label class="uk-form-label" for="selectCategory">Literary Category</label>
+                    <label class="uk-form-label" for="selectCategory">* Literary Category</label>
                     <select class="uk-select" id="selectCategory">
                         <option>Select book category...</option>
                         <option>Arts & Photography</option>
@@ -196,35 +181,14 @@
                         <option>Teens & Young Adult</option>
                     </select>  
                 </div>
-                <button class="uk-button uk-button-primary uk-align-center">look up</button>
+                <button class="uk-button uk-button-primary uk-align-center"><a href="searchResults.html">look up</a></button>
             </fieldset>
         </form>
-        <!-- <hr class="redHR"> -->
-        <!-- <h6 class="uk-width-expand redText" uk-leader="fill: ∆"> </h6>
-        <p class="formTeeth uk-text-center redText">FEATURED AUTHORS</p> -->
         
-    </div>
+    </div> <!-- closing search & filter -->
 
-    
-
-        </div> <!-- closing container -->
+</div> <!-- closing container -->
         
-            
-            
-
-
-
-        
-            
-
-    
-
-    
-
-    
-
-    
-    
 
 </body>
 </html>
