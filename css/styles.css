@@ -22,6 +22,7 @@ button a, button a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+    opacity: 0.95;
 }
 .blueBody {
     background-color: #04031c;
@@ -182,6 +183,9 @@ article {
 .goldText {
     color: #DAC490;
 }
+.lightGreyText {
+    color: #b3b9ba;
+}
 .whitishText {
     color: #EDFAE9;
 }
@@ -228,9 +232,27 @@ article {
     margin-top: 40px;
 }
 
+/* SEARCH RESULTS **************************************************************************************/
+.galaxyBody .uk-card-default {
+    background-color: #e8eaea;
+}
+.galaxyBody .uk-card-default .uk-card-header, .galaxyBody .uk-card-default .uk-card-footer {
+    border-color: #e8eaea;
+}
+.galaxyBody .uk-card-badge {
+    border: 2px solid #c0c5c6;
+}
+
 /* DATE PICKER ***************************************************************************************/
 .flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange, .flatpickr-day.selected.inRange, .flatpickr-day.startRange.inRange, .flatpickr-day.endRange.inRange, .flatpickr-day.selected:focus, .flatpickr-day.startRange:focus, .flatpickr-day.endRange:focus, .flatpickr-day.selected:hover, .flatpickr-day.startRange:hover, .flatpickr-day.endRange:hover, .flatpickr-day.selected.prevMonthDay, .flatpickr-day.startRange.prevMonthDay, .flatpickr-day.endRange.prevMonthDay, .flatpickr-day.selected.nextMonthDay, .flatpickr-day.startRange.nextMonthDay, .flatpickr-day.endRange.nextMonthDay {
     background: #DAC490 !important;
     border-color: #DAC490 !important;
     color: #080533 !important;
+}
+
+/* MEDIA QUERIES ***************************************************************************************/
+@media only screen and (max-width: 1020px) {
+    .resultsCount {
+        color: #b3b9ba;
+    }
 }
