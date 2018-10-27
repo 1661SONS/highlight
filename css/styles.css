@@ -64,7 +64,7 @@ nav {
 .noBorder {
     border: none;
 }
-#loginButton {
+#loginButton, #accountButton {
     margin-right: 10px;
     border: none;
 }

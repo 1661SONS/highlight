@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="galaxyBodyAccount blueBody" lang="en">
+<html class="galaxyBody blueBody" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,12 +31,12 @@
         </div>
         <div class="uk-navbar-right">
             <ul class="uk-navbar-nav">
-                <li><a href="login.html"><button id="loginButton" class="uk-button uk-button-primary">login</button></a></li>
+                <li><a id="accountButton" href="createAccount.html"><span uk-icon="user"></span>&nbsp;create account</a></li>
             </ul>
         </div>
     </nav>
 
-    <h1 class="uk-text-center whitishText">Create Account:</h1>
+    <h1 class="uk-text-center blueText">login</h1>
 
     <div class="uk-container">
 
@@ -44,27 +44,11 @@
 
         <form class="authorForm uk-width-1-2@m uk-align-center uk-form-stacked">
                 
-            <p class="uk-text-lead">Creating an account allows you to become a contributing member of Highlight.</p>
+            <p class="uk-text-lead">Login and add some Highlights of your own.</p>
             <p class="uk-text-center redText"><span uk-icon="bolt"></span></p>
                      
             <fieldset class="uk-fieldset">
                 <div class="form-group">
-
-                    <div class="uk-margin">
-                        <label class="uk-form-label" for="form-stacked-select">* First Name:</label>
-                        <div class="uk-inline uk-width-1-1">
-                            <span class="uk-form-icon uk-form-icon-flip blueText" uk-icon="icon: pencil"></span>
-                            <input class="uk-input" id="firstName" name="firstName" type="text">
-                        </div>
-                    </div>
-
-                    <div class="uk-margin">
-                        <label class="uk-form-label" for="form-stacked-select">* Last Name:</label>
-                        <div class="uk-inline uk-width-1-1">
-                            <span class="uk-form-icon uk-form-icon-flip blueText" uk-icon="icon: pencil"></span>
-                            <input class="uk-input" id="lastName" name="lastName" type="text">
-                        </div>
-                    </div>
 
                     <div class="uk-margin">
                         <label class="uk-form-label" for="form-stacked-select">* Email:</label>
@@ -82,7 +66,7 @@
                         </div>
                     </div>           
                 
-            <button class="uk-button uk-button-primary redText uk-align-center" id="submit-btn"><span uk-icon="user"></span>&nbsp; Create Account</button>
+            <button class="uk-button uk-button-secondary redText uk-align-center" id="submit-btn"><span uk-icon="user"></span>&nbsp; login</button>
 
         </fieldset>
     </form>
