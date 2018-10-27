@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="galaxyBodyAccount blueBody" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Highlight</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Mono:300i" rel="stylesheet">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/css/uikit.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.17/js/uikit-icons.min.js"></script>
+</head>
+<body>
+
+    <!-- nav -->
+    
+    <nav class="uk-navbar-container uk-navbar-transparent noBorder" uk-navbar>
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li><a href="index.html"><span uk-icon="bolt"></span>&nbsp;highlight</a></li>
+                <li><a href="authorForm.html"><span uk-icon="plus"></span>&nbsp;add author</a></li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li><a href="login.html"><button id="loginButton" class="uk-button uk-button-primary">login</button></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="uk-text-center whitishText">Create Account</h1>
+
+    <div class="uk-container">
+
+    <!-- form -->
+
+        <form class="authorForm uk-width-1-2@m uk-align-center uk-form-stacked">
+                
+            <p class="uk-text-lead">Creating an account allows you to become a contributing member of Highlight.</p>
+            <p class="uk-text-center redText"><span uk-icon="bolt"></span></p>
+                     
+            <fieldset class="uk-fieldset">
+                <div class="form-group">
+
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-select">* First Name:</label>
+                        <div class="uk-inline uk-width-1-1">
+                            <span class="uk-form-icon uk-form-icon-flip blueText" uk-icon="icon: pencil"></span>
+                            <input class="uk-input" id="firstName" name="firstName" type="text">
+                        </div>
+                    </div>
+
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-select">* Last Name:</label>
+                        <div class="uk-inline uk-width-1-1">
+                            <span class="uk-form-icon uk-form-icon-flip blueText" uk-icon="icon: pencil"></span>
+                            <input class="uk-input" id="lastName" name="lastName" type="text">
+                        </div>
+                    </div>
+
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-select">* Email:</label>
+                        <div class="uk-inline uk-width-1-1">
+                            <span class="uk-form-icon uk-form-icon-flip blueText" uk-icon="icon: world"></span>
+                            <input class="uk-input" id="email" name="email" type="text">
+                        </div>
+                    </div>
+
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-select">* Password:</label>
+                        <div class="uk-inline uk-width-1-1">
+                            <span class="uk-form-icon uk-form-icon-flip blueText" uk-icon="icon: lock"></span>
+                            <input class="uk-input" id="password" name="password" type="text">
+                        </div>
+                    </div>           
+                
+            <button class="uk-button uk-button-primary redText uk-align-center" id="submit-btn"><span uk-icon="user"></span>&nbsp; Create Account</button>
+
+        </fieldset>
+    </form>
+
+</div>
+
+<!-- <h6 class="uk-width-expand lighterBlueText" uk-leader="fill: ∆"> </h6> -->
+<nav id="footer" class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-center">   
+        <ul class="uk-navbar-nav">
+            <li><a target="_blank" href="https://github.com/gtproject3/highlight">SEE HIGHLIGHT on github &nbsp;<span uk-icon="github"></span></a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- datepicker js -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>
+    $( '.flatpickr' ).flatpickr({
+        altInput: true,
+    altFormat: "F j, Y",
+    dateFormat: "Y-m-d",
+  });
+</script>
+
+</body>
+</html>
