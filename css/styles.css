@@ -87,6 +87,12 @@ nav {
     background-image: url(https://stmed.net/sites/default/files/galaxy-wallpapers-30826-3558648.jpg);
     background-position: center;
 }
+#footer {
+    background-color: #04031c;
+    color: #F9193E;
+    border-bottom: none;
+    margin-top: 60px;
+}
 
 /* HOME: LOOKUP AUTHOR **************************************************************************************/
 .searchContainer {
@@ -199,6 +205,9 @@ article {
 }
 .blueText {
     color: #080533;
+}
+.lighterBlueText {
+    color: #0c074a;
 }
 .goldText {
     color: #DAC490;
